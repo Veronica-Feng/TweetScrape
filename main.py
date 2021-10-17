@@ -1,6 +1,8 @@
 # from searchtweets import load_credentials, gen_request_parameters, collect_results, ResultStream
 
 # Press the green button in the gutter to run the script.
+import json
+
 from city_falcon.city_falcon import CityFalcon
 import pandas as pd
 
@@ -25,6 +27,8 @@ if __name__ == '__main__':
                   "languages": "en"}
         try:
             stories = city_falcon.get(params)
+            with open(f"./stories/{symbol}.txt", "w") as text_file:
+                text_file.write(json.dumps(stories))
             for story in stories:
                 symbol_col.append(symbol)
                 uuids.append(story["uuid"])
