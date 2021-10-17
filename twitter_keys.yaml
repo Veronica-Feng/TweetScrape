@@ -1,0 +1,13 @@
+search_tweets_api:
+  account_type: premium
+  endpoint: https://api.twitter.com/2/tweets/search/all
+  consumer_key: 8Lx8JZUO3nvusJjlWf6i37Bli
+  consumer_secret: tk38iLmVmixuBDFhPfJXa3EdhX68vxTTtHPadzkhlGEiSSwLdr
+  access_token: 722195766-9kw2kqOQLFdkpiGeQkWcaBgiNRaoVAMFPslHuC9Y
+  access_token_secret: grk0N9lVxFSHCHymWYYlMf6w3gmvr3hRMilFbKElt6nIC
+
+search_tweets_v2:
+  endpoint: https://api.twitter.com/2/tweets/search/all
+  consumer_key: 8Lx8JZUO3nvusJjlWf6i37Bli
+  consumer_secret: tk38iLmVmixuBDFhPfJXa3EdhX68vxTTtHPadzkhlGEiSSwLdr
+  bearer_token: AAAAAAAAAAAAAAAAAAAAAAaRMQEAAAAANoeR%2BKzS8D9B1n6vpit%2B%2FuN60Os%3DJDtX5oT4d0R90T64cAlSWt7L0zAQUGvVpBGCofjeyycly0MNZA
